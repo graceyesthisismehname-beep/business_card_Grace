@@ -3,3 +3,8 @@ body{background-image: url("assets/boxes.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 383fr, 215fr, 124fr, 431fr, 124fr, 168fr;
+    grid-template-columns: 173fr, 124fr, 431fr, 124fr, 431fr, 124fr, 431fr, 151fr;
+}
