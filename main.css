@@ -1,1 +1,5 @@
 h1{color:fuchsia}
+body{background-image: url("assets/boxes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
