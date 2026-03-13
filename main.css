@@ -39,52 +39,107 @@ body{resize: url("assets/self3.png");
 }
 
 /* Grid Areas */
-.grid_item-1{ 
+/* .grid_item-1{ 
     grid-area: a; 
-    /* position: fixed; */
-    color: #ff0000;
-    max-width: 200px;
+    .sidebar{
+        justify-items: left;
+        max-width: 400px;
+        position: fixed;
     }
+    
+    } */
 .grid_item-2{ 
     grid-area: b; 
-    color: #ff0000;
-    max-width: 200px;
+    .box1{
+        max-width: 400px;
+        transform: translate(-30px);
+    }
     }
 .grid_item-3{ 
     grid-area: c; 
-    color: #ff0000;
-    max-width: 200px;
+    .box1{
+        max-width: 400px;
+        justify-content: center;
+    }
     }
 .grid_item-4{ 
     grid-area: d; 
     color: #ff0000;
-    max-width: 200px;
+    max-width: 400px;
+    justify-content: center;
 }
 .grid_item-5{ 
     grid-area: e; 
     color: #ff0000;
-    max-width: 200px;
+    max-width: 400px;
+    justify-content: center;
 }
 .grid_item-6{ 
     grid-area: f; 
-    max-height: 200;
-    .center-image{
-    width:200px;
-}
+    color:#ff0000;
+    max-width: 400px;
+    justify-content: center;
+
 }
 .grid_item-7{ 
     grid-area: g; 
     color: #ff0000;
-    max-width: 200px;
+    max-width: 400px;
+    justify-content: center;
 }
 .grid_item-8{ 
     grid-area: h; 
     color: #ff0000;
-    max-width: 100px;
+    max-width: 400px;
+    justify-content: center;
 }
 .grid_item-9{ 
     grid-area: i; 
     color: #ff0000;
-    max-width: 100px;
+    max-width: 400px;
+    justify-content: center;
+}
+.grid_item-10{ 
+    grid-area: i; 
+    color: #ff0000;
+    max-width: 400px;
+    justify-content: center;
 }
 
+.self_portrait{
+    width:400px;
+}
+
+.grid_item-1{ 
+    grid-area: a; 
+    .sidebar{
+        justify-items: left;
+        max-width: 400px;
+        position: fixed;
+        
+    }
+    .insta{
+        max-width: 100px;
+        position:fixed;
+        transform: translate(150px,400px);
+    }
+    .linkedin{
+        max-width: 100px;
+        position:fixed;
+        transform: translate(150px,550px);
+    }
+    .outlook{
+        max-width: 100px;
+        position:fixed;
+        transform: translate(150px,700px);
+        
+    }
+    .name_logo{
+        max-width: 300px;
+        position:fixed;
+        transform: translate(50px,35px);
+        
+    }
+    color: blanchedalmond;
+    
+    }
