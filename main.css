@@ -140,6 +140,11 @@ body{resize: url("assets/self3.png");
         transform: translate(50px,35px);
         
     }
-    color: blanchedalmond;
-    
+        .contact{
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: (12px);
+        font-style: normal;
+        color: beige;
     }
+}
